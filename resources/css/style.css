@@ -1,0 +1,78 @@
+
+* {
+	font-family: 'Playfair Display', Georgia, serif;
+}
+
+body {
+	background-color: #F9F9F9;
+}
+
+nav {
+	padding: 2rem !important;
+	border-bottom: 1px solid #CCC;
+	background-color: white;
+	/* margin-bottom: 2rem; */
+}
+
+.navbar-brand {
+	background-color: lightgreen;
+	border-radius: 10rem;
+	padding: .5rem 1rem;
+	color: #104310;
+	font-weight: 400;
+	transition: all .2s ease-out;
+}
+
+.navbar-brand:hover {
+	color: lightgreen;
+	background-color: #104310;
+}
+
+nav li {
+	font-size: 1.2rem;
+}
+
+nav .active {
+	font-weight: 900;
+	color: black;
+}
+
+.extra-padding-small {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.hero-bg {
+	background-image: url('/public/media/hero-letters-bg.svg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #F9F9F9;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+blockquote.cite {
+	padding-top: 10rem;
+	max-width: 860px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 2rem;
+	padding-top: 9rem;
+}
+
+blockquote p {
+	font-size: clamp(2rem, 5vw, 4rem);
+	font-style: italic;
+	color: #1a1a1a;
+	line-height: 1.3;
+	margin: 0 0 1.5rem 0;
+}
+
+blockquote cite {
+	font-size: 1rem;
+	color: #888;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+}

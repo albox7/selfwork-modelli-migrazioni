@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+  <rect width="1440" height="900" fill="#F9F9F9"/>
+
+  <!-- Lettere sparse, dimensioni e opacità variate, font serif elegante -->
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#1a1a1a">
+
+    <text x="32"   y="120"  font-size="210" opacity="0.04" transform="rotate(-12, 32, 120)">Q</text>
+    <text x="180"  y="340"  font-size="80"  opacity="0.06" transform="rotate(6, 180, 340)">m</text>
+    <text x="310"  y="95"   font-size="130" opacity="0.05" transform="rotate(-5, 310, 95)">A</text>
+    <text x="520"  y="210"  font-size="55"  opacity="0.07" transform="rotate(8, 520, 210)">z</text>
+    <text x="640"  y="80"   font-size="170" opacity="0.04" transform="rotate(-3, 640, 80)">W</text>
+    <text x="870"  y="160"  font-size="95"  opacity="0.06" transform="rotate(10, 870, 160)">e</text>
+    <text x="1020" y="55"   font-size="145" opacity="0.05" transform="rotate(-8, 1020, 55)">R</text>
+    <text x="1200" y="200"  font-size="70"  opacity="0.07" transform="rotate(5, 1200, 200)">k</text>
+    <text x="1310" y="110"  font-size="190" opacity="0.04" transform="rotate(-14, 1310, 110)">S</text>
+
+    <text x="-20"  y="420"  font-size="160" opacity="0.05" transform="rotate(4, -20, 420)">L</text>
+    <text x="140"  y="550"  font-size="100" opacity="0.06" transform="rotate(-7, 140, 550)">p</text>
+    <text x="290"  y="480"  font-size="60"  opacity="0.08" transform="rotate(11, 290, 480)">i</text>
+    <text x="380"  y="640"  font-size="190" opacity="0.04" transform="rotate(-6, 380, 640)">G</text>
+    <text x="560"  y="430"  font-size="75"  opacity="0.07" transform="rotate(9, 560, 430)">n</text>
+    <text x="680"  y="580"  font-size="120" opacity="0.05" transform="rotate(-4, 680, 580)">V</text>
+    <text x="830"  y="460"  font-size="50"  opacity="0.09" transform="rotate(7, 830, 460)">o</text>
+    <text x="940"  y="620"  font-size="155" opacity="0.04" transform="rotate(-11, 940, 620)">T</text>
+    <text x="1110" y="490"  font-size="85"  opacity="0.06" transform="rotate(6, 1110, 490)">d</text>
+    <text x="1260" y="560"  font-size="110" opacity="0.05" transform="rotate(-9, 1260, 560)">H</text>
+    <text x="1390" y="430"  font-size="65"  opacity="0.08" transform="rotate(13, 1390, 430)">u</text>
+
+    <text x="50"   y="780"  font-size="130" opacity="0.05" transform="rotate(-5, 50, 780)">B</text>
+    <text x="220"  y="860"  font-size="80"  opacity="0.07" transform="rotate(8, 220, 860)">f</text>
+    <text x="370"  y="820"  font-size="50"  opacity="0.09" transform="rotate(-10, 370, 820)">y</text>
+    <text x="480"  y="910"  font-size="170" opacity="0.04" transform="rotate(3, 480, 910)">C</text>
+    <text x="660"  y="780"  font-size="90"  opacity="0.06" transform="rotate(-7, 660, 780)">x</text>
+    <text x="790"  y="870"  font-size="60"  opacity="0.08" transform="rotate(12, 790, 870)">j</text>
+    <text x="900"  y="800"  font-size="140" opacity="0.05" transform="rotate(-4, 900, 800)">M</text>
+    <text x="1080" y="880"  font-size="75"  opacity="0.07" transform="rotate(6, 1080, 880)">r</text>
+    <text x="1200" y="750"  font-size="105" opacity="0.05" transform="rotate(-13, 1200, 750)">E</text>
+    <text x="1360" y="840"  font-size="55"  opacity="0.08" transform="rotate(9, 1360, 840)">q</text>
+
+    <!-- Qualche lettera più grande e più sbiadita come accento -->
+    <text x="500"  y="700"  font-size="320" opacity="0.025" transform="rotate(-8, 500, 700)">J</text>
+    <text x="950"  y="350"  font-size="280" opacity="0.025" transform="rotate(5, 950, 350)">F</text>
+    <text x="100"  y="300"  font-size="260" opacity="0.025" transform="rotate(-3, 100, 300)">P</text>
+    <text x="1150" y="750"  font-size="300" opacity="0.025" transform="rotate(7, 1150, 750)">Z</text>
+
+  </g>
+</svg>
