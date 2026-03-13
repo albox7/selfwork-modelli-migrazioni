@@ -24,7 +24,7 @@
 							<a class="nav-link {{ request()->routeIs('quotes') ? 'active' : '' }}" {{ request()->routeIs('quotes') ? 'aria-current=page' : '' }} href="{{ route('quotes') }}">Quotes</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link {{ request()->routeIs('inserisci-elemento') ? 'active' : '' }}" {{ request()->routeIs('inserisci-elemento') ? 'aria-current=page' : '' }} href="{{ route('inserisci-elemento') }}">Inserisci elemento</a>
+							<a class="nav-link {{ request()->routeIs('inserisci-elemento') ? 'active' : '' }}" {{ request()->routeIs('inserisci-elemento') ? 'aria-current=page' : '' }} href="{{ route('inserisci-elemento') }}">Add quote</a>
 						</li>
 					</ul>
 				</div>

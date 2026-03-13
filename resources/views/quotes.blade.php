@@ -7,15 +7,17 @@
 				<h1 class="mt-4 mb-3">Quotes</h1>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-12 col-md-8 col-lg-6">
-				<div class="card">
+		<div class="row mb-5">
+			@foreach($quotes as $quote)
+			<div class="col-12 col-md-4 col-lg-4 mb-4">
+				<div class="card h-100">
 					<div class="card-body">
-						<h4 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4>
-						<cite>Author name</cite>
+						<h4 class="card-title">{{$quote->citazione}}</h4>
+						<cite>{{$quote->autore}}</cite>
 					</div>
 				</div>
 			</div>
+			@endforeach
 		</div>
 	</div>
 
