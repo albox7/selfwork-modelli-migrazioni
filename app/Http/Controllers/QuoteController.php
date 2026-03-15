@@ -2,18 +2,32 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\QuoteRequest;
 use App\Models\Quote;
 use Illuminate\Http\Request;
 
 class QuoteController extends Controller
 {
-	public function store (Request $request) {
+	public function store (QuoteRequest $request) {
 
 		$citazione = $request->citazione;
 		$autore = $request->autore;
+		$img = null;
 
-		// Arrivano i dati in $request?
-		//dd($request->all());
+		// !!! ERRATO PASSAGGIO PARAMETRI ('public/img')
+		//$img = $request->file('img')->store('public/img');
+
+		// PASSAGGIO PARAMETRI CORRETTO: ('img', 'public')
+		if($request->file('img')) {
+			$img = $request->file('img')->store('img', 'public');	
+		}
+
+		// SALVATAGGIO DATI
+		Quote::create([
+			'citazione' => $citazione,
+			'autore' => $autore,
+			'img' => $img,
+		]);
 
 
 		// -----------------------------------
@@ -33,15 +47,8 @@ class QuoteController extends Controller
 		//$quote->save();
 
 
-		// -----------------------------------
-		// METODO SALVATAGGIO DATI 2
 
-		Quote::create([
-			'citazione' => $citazione,
-			'autore' => $autore,
-		]);
-
-		
-		return redirect(route('inserisci-elemento'));
+		// return redirect(route('inserisci-elemento'));
+		return redirect()->back()->with('message', 'Good job!');
 	}
 }

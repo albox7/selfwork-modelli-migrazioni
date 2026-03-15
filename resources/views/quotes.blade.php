@@ -9,14 +9,20 @@
 		</div>
 		<div class="row mb-5">
 			@foreach($quotes as $quote)
-			<div class="col-12 col-md-4 col-lg-4 mb-4">
-				<div class="card h-100">
-					<div class="card-body">
-						<h4 class="card-title">{{$quote->citazione}}</h4>
-						<cite>{{$quote->autore}}</cite>
+				<div class="col-12 col-md-4 col-lg-4 mb-4">
+					<div class="card h-100">
+						<div class="card-body">
+
+							<x-quote-card 
+								{{-- Va scritto senza spazi
+									quindi non :quote = "$quote" !!!
+								--}}
+								:quote="$quote"
+							/>
+
+						</div>
 					</div>
 				</div>
-			</div>
 			@endforeach
 		</div>
 	</div>

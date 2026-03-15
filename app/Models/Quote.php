@@ -13,5 +13,6 @@ class Quote extends Model
 	protected $fillable = [
 		'citazione',
 		'autore',
+		'img',
 	];
 }
